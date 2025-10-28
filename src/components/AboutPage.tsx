@@ -83,7 +83,7 @@ export function AboutPage() {
               <div className="relative transform lg:rotate-2 hover:rotate-0 transition-transform duration-500">
                 <div className="glass-card rounded-2xl p-3 sm:p-4 shadow-2xl">
                   <ImageWithFallback
-                    src="/pravnik.jpg"
+                    src="./pravnik.jpg"
                     alt="Chatovacia aplikácia pre právnikov"
                     className="w-full h-auto rounded-xl"
                   />
