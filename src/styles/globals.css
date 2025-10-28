@@ -246,4 +246,18 @@ html {
     );
     pointer-events: none;
   }
+
+  .construction-disabled::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 6px,
+      rgba(220, 38, 38, 0.8) 6px,
+      rgba(220, 38, 38, 0.8) 12px
+    );
+    pointer-events: none;
+  }
 }
