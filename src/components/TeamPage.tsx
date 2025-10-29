@@ -42,7 +42,7 @@ export function TeamPage() {
             </div>
             <div className="flex-1">
               <h3 className="text-gray-900 mb-2">{leader.name}</h3>
-              <p className="text-blue-600 mb-4 sm:mb-6">{leader.role}</p>
+              <p className="text-gray-700 mb-4 sm:mb-6">{leader.role}</p>
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed mb-4 sm:mb-6">
                 {leader.description}
               </p>
@@ -50,7 +50,7 @@ export function TeamPage() {
                 href={leader.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+                className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-900 transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
                 <span>LinkedIn</span>
@@ -83,7 +83,7 @@ export function TeamPage() {
               </div>
               <div className="flex-1 min-w-0">
                 <h3 className="text-gray-900 mb-1">{member.name}</h3>
-                <p className="text-blue-600 mb-3 sm:mb-4">{member.role}</p>
+                <p className="text-gray-700 mb-3 sm:mb-4">{member.role}</p>
                 <p className="text-gray-600 text-sm leading-relaxed mb-3 sm:mb-4">
                   {member.description}
                 </p>
@@ -91,7 +91,7 @@ export function TeamPage() {
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-gray-500 hover:text-gray-900 transition-colors text-sm"
+                  className="inline-flex items-center gap-2 text-blue-500 hover:text-blue-900 transition-colors text-sm"
                 >
                   <Linkedin className="w-4 h-4" />
                   <span>LinkedIn</span>
