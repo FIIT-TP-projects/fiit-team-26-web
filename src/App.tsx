@@ -20,7 +20,7 @@ export default function App() {
         <footer className="bg-white border-t border-gray-200 py-8">
           <div className="container mx-auto px-6 text-center">
             <p className="text-gray-500">
-              © 2025 Tím 26 — Projekt AI pre právnikov
+              © 2025 Tím 26 — LEXAI Umelá inteligencia v službách práva
             </p>
           </div>
         </footer>

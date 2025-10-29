@@ -11,7 +11,7 @@ export function Header() {
       <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-gray-900">
-            Tím 26
+            Tím 26 - LEXAI
           </Link>
           <nav>
             <ul className="flex gap-3 sm:gap-6 md:gap-8">
