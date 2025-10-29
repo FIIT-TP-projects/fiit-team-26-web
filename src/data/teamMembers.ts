@@ -25,7 +25,7 @@ export const teamData = {
       photo:
         "https://media.licdn.com/dms/image/v2/D4D03AQEOqHw5BgjesA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714640380562?e=1762992000&v=beta&t=HxeYtZXR3rUlkUcngHlmfpwEdKLD11jX5cOdrUpMqDY",
       description:
-        "Nas najlepsi leader, ktory nam pomohl s projektom a pomohol nam s tim ako to ide.",
+        "Zameriavam sa na agílne riadenie projektu prostredníctvom SCRUM metodiky s dôrazom na transparentnú komunikáciu. Venujem sa NLP technológií a súčasťou diplomovej práce riešim spracovanie dokumentov za účelom dodržania advokátskej mlčanlivosti.\n",
       linkedin: "https://www.linkedin.com/in/adam-candr%C3%A1k-78672a307/",
     },
     {
