@@ -4,7 +4,7 @@ export const teamData = {
     role: "Vedúci projektu",
     photo:
       "https://media.licdn.com/dms/image/v2/C5603AQHjiqQ8_bn5ag/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517065607184?e=1762992000&v=beta&t=e-gF99Uy9180FODpxW7pVfhxSr0yolpI6CJmijR-w90",
-    description: "Todo: Add description",
+    description: "Som vysokoškolský učiteľ a výskumník na FIIT STU, ktorý sa venuje umelej inteligencii, robotike a spracovaniu právnych textov. Zároveň mám vášeň pre turistiku a rád spájam vedu s tvorivými aj osobnými projektmi.\n",
     linkedin: "https://www.linkedin.com/in/martin-kom%C3%A1k-742789128/",
   },
   members: [
