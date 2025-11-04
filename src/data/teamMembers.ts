@@ -63,8 +63,7 @@ export const teamData = {
       id: 6,
       name: "Bc. Mário Babiar",
       role: "Backend vývojár",
-      photo:
-        "https://media.licdn.com/dms/image/v2/D4D03AQGsQYDX8OBAfA/profile-displayphoto-shrink_800_800/B4DZUi8W9BHYAc-/0/1740048003179?e=1762992000&v=beta&t=djRlVonVqqaXgCQlrj4zob8DslqllslV0rK9kCnYRRY",
+      photo: "./mariobabiar.jpg",
       description:
         "Nas najlepsi backend developer, ktory nam pomohl s projektom a pomohol nam s tim ako to ide.",
       linkedin: "https://www.linkedin.com/in/m%C3%A1rio-babiar/",
