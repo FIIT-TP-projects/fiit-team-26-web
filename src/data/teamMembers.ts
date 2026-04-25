@@ -65,10 +65,10 @@ export const teamData = {
     {
       id: 7,
       name: "Bc. Peter Brandajský",
-      role: "AI/ML špecialista",
+      role: "AI & Full-Stack vývojár",
       photo: "./peterbrandajsky.jpeg",
       description:
-        "Nas najlepsi AI/ML specialist, ktory nam pomohl s projektom a pomohol nam s tim ako to ide.",
+        "Zastrešoval som návrh a implementáciu kľúčových AI a Full-Stack funkcií projektu. Venoval som sa optimalizácii vektorovej databázy (Qdrant), integrácii RAG (Retrieval-Augmented Generation) a vytvoreniu feedback systému s few-shot učením. Na frontende som navrhol interaktívne chatové rozhranie a komplexný 'Word-style' náhľad pre formátovanie a úpravu právnych zmlúv.",
       linkedin: "https://www.linkedin.com/in/peter-brandajsk%C3%BD-436340208/",
     },
   ],
