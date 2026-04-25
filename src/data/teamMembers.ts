@@ -29,10 +29,10 @@ export const teamData = {
     {
       id: 3,
       name: "Bc. Vladyslav Gusiev",
-      role: "Backend vývojár",
+      role: "Backend vývojár / DevOps",
       photo: "./vladyslavgusiev.jpeg",
       description:
-        "Nas najlepsi backend developer, ktory nam pomohl s projektom a pomohol nam s tim ako to ide.",
+        "Mám na starosti návrh a implementáciu backendovej architektúry a infraštruktúry. Zaviedol som DevContainers pre jednotné vývojové prostredie, integroval Firebase autentifikáciu, automatizoval CI/CD procesy (GitHub Actions) a dbám na vysokú kvalitu kódu prostredníctvom nástrojov ako Pydantic a Ruff.",
       linkedin: "https://www.linkedin.com/in/vladyslav-gusiev-9a736834b/",
     },
     {
@@ -50,7 +50,7 @@ export const teamData = {
       role: "Frontend vývojár",
       photo: "./samuelcseto.jpeg",
       description:
-        "Nas najlepsi frontend developer, ktory nam pomohl s projektom a pomohol nam s tim ako to ide.",
+        "Spolupracujem na vývoji používateľského rozhrania aplikácie. Podieľam sa na návrhu responzívnych a interaktívnych komponentov tak, aby bola práca s aplikáciou pre právnikov čo najintuitívnejšia a najrýchlejšia.",
       linkedin: "https://www.linkedin.com/in/samuel-cset%C5%91-330706232/",
     },
     {
@@ -59,7 +59,7 @@ export const teamData = {
       role: "Backend vývojár",
       photo: "./mariobabiar.jpg",
       description:
-        "Nas najlepsi backend developer, ktory nam pomohl s projektom a pomohol nam s tim ako to ide.",
+        "Zameriavam sa na vývoj serverovej časti aplikácie, prácu s databázami a optimalizáciu API endpointov. Zabezpečujem, aby komunikácia medzi frontendom a AI modulmi prebiehala plynulo, bezpečne a bez výpadkov.",
       linkedin: "https://www.linkedin.com/in/m%C3%A1rio-babiar/",
     },
     {

@@ -50,30 +50,30 @@ export function AboutPage() {
         <div className="container mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-20">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 mb-4 sm:mb-6 leading-tight">
-                AI asistent pre právnikov s dôverou
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
+                LEXAI: Budúcnosť tvorby zmlúv
               </h1>
               <p className="text-gray-600 text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 leading-relaxed max-w-xl">
-                Inovatívna chatovacia aplikácia využívajúca umelú inteligenciu
-                na automatizáciu tvorby zmlúv, ochranu pred zneužitím a
-                efektívnu prácu s právnymi dokumentmi.
+                Tvoríme AI asistenta novej generácie pre právnikov. Náš nástroj 
+                automatizuje pripomienkovanie zmlúv, využíva RAG s overenými 
+                šablónami a zvyšuje efektivitu práce vďaka inovatívnemu chatovému rozhraniu.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <Button
                   size="lg"
                   disabled
-                  className="bg-blue-500 text-white shadow-lg relative overflow-hidden disabled:opacity-100 disabled:cursor-not-allowed striped-disabled w-full sm:w-auto"
+                  className="bg-purple-600 text-white shadow-lg relative overflow-hidden disabled:opacity-80 disabled:cursor-not-allowed striped-disabled w-full sm:w-auto"
                 >
-                  Vyskúšať aplikáciu
+                  Aplikáciu pripravujeme
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-gray-300 text-gray-700 hover:bg-gray-50 w-full sm:w-auto"
-                  onClick={() => navigate("/meetings")}
+                  onClick={() => navigate("/team")}
                 >
-                  Čo robíme
+                  Spoznať tím
                 </Button>
               </div>
             </div>
