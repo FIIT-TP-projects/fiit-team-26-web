@@ -9,39 +9,39 @@ export function AboutPage() {
   const features = [
     {
       icon: FileText,
-      title: "Tvorenie zmlúv",
+      title: "Inteligentná úprava zmlúv",
       description:
-        "Automatizované generovanie zmlúv s využitím AI, ktoré šetrí čas a zabezpečuje konzistentnosť právnych dokumentov.",
+        "Komplexný 'Word-style' náhľad s interaktívnou úpravou a automatickým formátovaním do štruktúrovaného JSON modelu.",
       color: "accent-pink",
     },
     {
       icon: Shield,
-      title: "Ochrana proti zneužitiu",
+      title: "RAG a presnosť kontextu",
       description:
-        "Implementované bezpečnostné mechanizmy na zabránenie zneužitia systému a ochranu citlivých právnych údajov.",
+        "Využitie vektorovej databázy Qdrant a RAG technológie pre presné vyhľadávanie informácií v právnych textoch.",
       color: "accent-purple",
     },
     {
       icon: Zap,
-      title: "Šablóny na prompty",
+      title: "LangGraph a LLM",
       description:
-        "Knižnica optimalizovaných prompt šablón pre rôzne typy právnych úkonov a dokumentov.",
+        "Pokročilý systém pre riadenie toku konverzácie (LangGraph) a integrácia moderných LLM modelov pre generovanie klauzúl.",
       color: "accent-orange",
     },
     {
       icon: Users,
-      title: "Chatovacia aplikácia",
+      title: "Interaktívny Chat a Feedback",
       description:
-        "Moderné používateľské rozhranie s AI asistentom pre každodennú prácu právnikov.",
+        "Intuitívne chatové rozhranie s few-shot učením a systémom spätnej väzby pre neustále zlepšovanie odpovedí AI.",
       color: "accent-blue",
     },
   ];
 
   const objectivesText =
-    "Cieľom projektu je vytvoriť intuitívnu AI-powered chatovú aplikáciu, ktorá automatizuje tvorbu zmlúv a zabezpečuje vysokú úroveň ochrany údajov. Aplikácia poskytne právnikom knižnicu šablón pre efektívnu prácu s AI a zlepší ich produktivitu pri každodenných úlohách.";
+    "Cieľom projektu je vytvoriť inovatívny nástroj LEXAI, ktorý zjednoduší prácu s právnymi zmluvami. Aplikácia umožňuje používateľom interaktívne generovať, upravovať a analyzovať zmluvy prostredníctvom chatu, čím zefektívňuje každodenné úlohy v oblasti práva za pomoci najmodernejších AI technológií.";
 
   const tasksText =
-    "V rámci projektu realizujeme návrh a implementáciu používateľského rozhrania, vývoj backend systému s API integráciami, trénovanie a optimalizáciu AI modelov. Súčasťou práce je aj implementácia bezpečnostných mechanizmov, testovanie a zabezpečenie kvality aplikácie, ako aj kompletná dokumentácia a školenie používateľov.";
+    "Náš tím zabezpečuje komplexný vývoj od návrhu používateľského rozhrania (React/Vue) až po robustnú backend architektúru (FastAPI). Súčasťou riešenia je nasadenie vektorovej databázy pre RAG, integrácia LLM modelov cez LangGraph a vytvorenie funkčného prostredia pre prácu s dokumentmi vrátane Firebase autentifikácie.";
 
   return (
     <div className="min-h-screen bg-white">
@@ -51,11 +51,11 @@ export function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl text-gray-900 mb-4 sm:mb-6 leading-tight">
-                AI asistent pre právnikov s dôverou
+                LEXAI: Váš AI asistent pre právne zmluvy
               </h1>
               <p className="text-gray-600 text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 leading-relaxed max-w-xl">
-                Inovatívna chatovacia aplikácia využívajúca umelú inteligenciu
-                na automatizáciu tvorby zmlúv, ochranu pred zneužitím a
+                Inovatívna chatovacia aplikácia využívajúca LLM a LangGraph 
+                pre automatizáciu úprav zmlúv, generovanie klauzúl a 
                 efektívnu prácu s právnymi dokumentmi.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -64,16 +64,16 @@ export function AboutPage() {
                   disabled
                   className="bg-blue-500 text-white shadow-lg relative overflow-hidden disabled:opacity-100 disabled:cursor-not-allowed striped-disabled w-full sm:w-auto"
                 >
-                  Vyskúšať aplikáciu
+                  Aplikáciu pripravujeme
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-gray-300 text-gray-700 hover:bg-gray-50 w-full sm:w-auto"
-                  onClick={() => navigate("/meetings")}
+                  onClick={() => navigate("/team")}
                 >
-                  Čo robíme
+                  Spoznať tím
                 </Button>
               </div>
             </div>
